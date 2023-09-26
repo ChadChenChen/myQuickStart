@@ -6,6 +6,9 @@ using FTOptix.SQLiteStore;
 using FTOptix.Store;
 using FTOptix.EventLogger;
 using FTOptix.Recipe;
+using FTOptix.CommunicationDriver;
+using FTOptix.Modbus;
+using FTOptix.RAEtherNetIP;
 #endregion
 
 public class AlarmGridLogic : BaseNetLogic

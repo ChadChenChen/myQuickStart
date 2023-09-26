@@ -12,6 +12,9 @@ using FTOptix.Core;
 using FTOptix.CoreBase;
 using FTOptix.SQLiteStore;
 using FTOptix.Store;
+using FTOptix.CommunicationDriver;
+using FTOptix.Modbus;
+using FTOptix.RAEtherNetIP;
 #endregion
 
 public class RecipesEditorComboBoxLogic : BaseNetLogic
