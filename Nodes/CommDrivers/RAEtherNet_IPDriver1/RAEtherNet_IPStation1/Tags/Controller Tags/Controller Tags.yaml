@@ -55,3 +55,12 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "booltag104"
+- Name: dinttag1
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "dinttag1"

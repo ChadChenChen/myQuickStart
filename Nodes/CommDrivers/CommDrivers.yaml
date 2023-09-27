@@ -2,3 +2,17 @@ Name: CommDrivers
 Type: CommDriversCategoryFolder
 Children:
 - File: RAEtherNet_IPDriver1/RAEtherNet_IPDriver1.yaml
+- Name: CommDrivesNetLogic
+  Id: g=10c2710e0dc6433549659282f630caf4
+  Type: NetLogic
+  Children:
+  - Class: Method
+    Name: Refresh
+    Children:
+    - Name: ns=0;InputArguments
+      Type: BaseVariableType
+      DataType: Argument
+      ReferenceType: HasProperty
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [{"TypeId":{"Id":296},"Body":{"Name":"url","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]

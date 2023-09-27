@@ -18,3 +18,5 @@ Children:
     Type: BehaviourStartPriorityVariableType
     DataType: Byte
     Value: 180
+- Name: RestfulWebServerNetLogic
+  Type: NetLogic

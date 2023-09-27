@@ -142,8 +142,8 @@ Children:
          "Id": 8912
         },
         "Body": {
-         "offset": 0,
-         "daylightSavingInOffset": false
+         "Offset": 0,
+         "DaylightSavingInOffset": false
         }
        }
   - Name: EventFieldsToLog
