@@ -15,8 +15,8 @@
   <PropertyGroup>
     <ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>None</ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>
   </PropertyGroup>
-  <Import Project="myQuickStart.references"/>
   <ItemGroup>
     <PackageReference Include="Grapevine" Version="5.0.0-rc.10"/>
   </ItemGroup>
+  <Import Project="myQuickStart.references"/>
 </Project>
